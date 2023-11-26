@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
 }
 
 .App-logo {
@@ -27,7 +32,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.transferList-title{
+  margin-top: 0;
+  padding-top: 2rem;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
